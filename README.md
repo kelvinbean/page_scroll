@@ -2,8 +2,10 @@
 这是一个全屏翻滚的插件
 可以支持横向滚动和竖向滚动。
 <blockquote>
-调用插件方法
+调用插件方法<br/>
 例子：
+</blockquote>
+<pre>
 $("[data-PageSwitch]").PageSwitch({<br>
 	direction:'herizontal'<br>
 });<br>
@@ -22,5 +24,4 @@ pagination : true,//是否显示页面圆点<br>
 keyboard : true,//是否支持键盘滚动<br>
 direction : "vertical",//水平滚动(herizontal)还是竖直滚动（vertical）<br>
 callback : ""//回调函数<br>
-
-</blockquote>
+</pre>
